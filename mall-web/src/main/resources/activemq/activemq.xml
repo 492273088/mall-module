@@ -11,8 +11,8 @@
     <bean id="connectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
         <!-- 目标ConnectionFactory对应真实的可以产生JMS Connection的ConnectionFactory -->
         <property name="brokerURL">
-            <!--<value>tcp://localhost:61616?wireFormat.maxInactivityDuration=0</value>-->
-            <value>tcp://172.16.0.17:61616?wireFormat.maxInactivityDuration=0</value>
+            <value>tcp://localhost:61616?wireFormat.maxInactivityDuration=0</value>
+            <!--<value>tcp://172.16.0.17:61616?wireFormat.maxInactivityDuration=0</value>-->
         </property>
     </bean>
 

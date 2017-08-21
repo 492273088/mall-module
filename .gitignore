@@ -10,3 +10,17 @@ buildNumber.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
+.idea/.name
+.idea/artifacts/
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/libraries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+mall-common/mall-common.iml
+mall-message/mall-message.iml
+mall-parent.iml
+mall-repository/mall-repository.iml
+mall-service/mall-service.iml
+mall-web/mall-web.iml
